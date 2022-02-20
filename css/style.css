@@ -1,0 +1,147 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2? family= Roboto & display=swap');
+@font-face {
+    font-family: 'logo';
+    src: url("../fonts/glimmer\ of\ light.otf");
+}
+
+header {
+    background-image:linear-gradient(to top, #135c61, #317a80, #48AEB5) ;
+    width: 100%;
+    height: 180px;
+    box-shadow: 0px 1px rgba(0, 0, 0, 0.555);
+}
+
+
+header > h1 {
+    font-family: 'logo', sans-serif;
+    margin: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    font-size: 40pt;
+}    
+
+header > h2 {
+    font-family: 'logo', sans-serif;
+    text-align: center;
+    font-size: 25pt;
+    margin-top: -14px;
+}
+
+nav#menu {
+	display: block;
+}
+
+nav#menu ul{
+	list-style: none;
+	text-transform: uppercase;
+	position: absolute;
+	top: 100px;
+	left: 810px;
+    
+}
+
+nav#menu li{
+	background-color: #1a5f64d8;
+    border-radius: 16px;
+    box-shadow: 0px 1px rgba(0, 0, 0, 0.384);
+	margin: 2px;
+	padding: 10px;
+    display: inline-block;
+}
+
+nav#menu li > a {
+    color: black;
+    text-decoration: none;
+}
+
+nav#menu li > a:hover {
+    text-decoration: underline;
+    color: gray;
+    transition: 0.7s;
+}
+
+nav#menu > img {
+    display: block;
+    position: relative;
+    width: 80px;
+    top: -100px;
+    left: 440px;
+}
+
+nav#menu > ul > li > a >img.home {
+    display: block;
+    position: relative;
+    width: 20px;
+}
+
+nav#menu > ul > li.img {
+    position: relative;
+    bottom: -17px;
+}
+
+header > a#ajuda {
+    text-decoration: none;
+    color: black;
+    display: block;
+    position: relative;
+    top: -250px;
+    left: 1250px;
+}
+
+body {
+    background-color: #5adfe998;
+    margin: 0;
+}
+
+article {
+    background-color: white;
+    margin: 10px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 1px 1px rgba(0, 0, 0, 0.288);
+}
+
+article > h1 {
+    font-size: 28px;
+    text-indent: 35px;
+}
+
+article > h2 {
+    font-size: 25px;
+    text-indent: 55px;
+}
+
+article > p > a {
+    color: blue;
+    text-decoration: none;
+}
+
+article >p > a:hover {
+    color: purple;
+    text-decoration: underline;
+}
+
+p {
+    padding: 15px;
+    text-indent: 50px;
+}
+
+footer {
+    box-shadow: 1px 1px black;
+    text-align: center;
+    background-color: #135C61;
+    padding: 6px;
+    font-size: large;
+    font-size: 20px;
+}
+
+footer > a {
+    font-weight: bolder;
+    color: black;
+    text-decoration: none;
+}
+
+footer > a:hover {
+    color: purple;
+}
